@@ -54,7 +54,7 @@ class App extends Component {
                     queryFormat="gte"
                     data={{
                         start: 1,
-                        end: 16,
+                        end: 20,
                     }}
                 />
 
@@ -63,18 +63,18 @@ class App extends Component {
                     dataField="price"
                     title="Price Range"
                     range={{
-                        start: 100,
+                        start: 500,
                         end: 6000,
                     }}
                     rangeLabels={{
-                        start: '100',
+                        start: '500',
                         end: '6000',
                     }}
                     defaultSelected={{
-                        start: 100,
-                        end: 5500,
+                        start: 500,
+                        end: 6000,
                     }}
-                    stepValue={100}
+                    stepValue={500}
                    
                 />
             </div>

@@ -2,9 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import NewApp from './NewApp';
-import ImageSlider from './ImageSlider';
-import NewImageSlider from './NewImageSlider';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
